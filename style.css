@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Montserrat:ital,wght@1,200&family=Roboto+Mono:ital,wght@1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  position: sticky;
+  top: 0;
+}
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  display: inline-block;
+  color: white;
+  justify-content: space-between;
+  margin: 20px;
+  /* remove underline */
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: aqua;
+  transform: scale(1.4);
+}
+video {
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  bottom: 20%;
+  left: 40%;
+}
+.inner h3 {
+  color: aliceblue;
+  font-size: x-large;
+}
+span {
+  color: aqua;
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+#home::before {
+  content: "";
+  background-image: url("https://pc-adr.com/wp-content/uploads/2022/11/Contact-Paul-U-Chistolini.jpg");
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+  z-index: -1;
+}
+.main {
+  padding: 40px;
+  border: 6px ridge black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 1250px;
+  left: 20%;
+  box-shadow: 2px 4px 4px 2px black;
+}
+h3 {
+  font-size: 30px;
+  text-align: center;
+  margin: 20px;
+}
+h3:hover {
+  text-decoration: underline;
+  text-shadow: 3px 4px 6px black;
+}
+
+.pic {
+  display: flex;
+}
+.pic img {
+  width: 500px;
+  height: 300px;
+}
+.pic p {
+  text-align: justify;
+  margin: 20px;
+}
+.pic h4 {
+  text-align: center;
+  font-size: x-large;
+}
+.gallery{ 
+  margin-left: 250px;
+
+}
+.gallery img{
+  width: 350px;
+  height: 200px;
+  margin: 30px;
+}
+.gallery img:hover{
+  box-shadow: 2px 2px 2px 6px gray;
+}
+.row
+{
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.box{
+  width: 350px;
+  height: 900px;
+  border: 2px solid black;
+  margin: 20px;
+  background: linear-gradient(to top,grey 50%,white 50%);
+  background-size: 100% 200%;
+  transition: all 0.8s;
+}
+.box:hover{
+  background-position: left bottom;
+  box-shadow: 2px  4px 6px 2px grey;
+}
+.box img{
+width: 100%;
+height: 250px;
+}
+.box p{
+  text-align: justify;
+  margin: 10px;
+}
+.box h4{
+  font-size: x-large;
+  margin: 20px;
+  color: blue;
+}
+form{
+  width: 600px;
+  margin-left: 600px;
+  margin-right: 400px;
+}
+.input{
+  padding: 5px;
+  width: 100%;
+  margin: 10px;
+}
